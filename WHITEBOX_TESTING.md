@@ -1,6 +1,6 @@
 # White-Box Test Suite: check_task()
 
-Testers (pair): afiqah insyirah
+Testers : Afiqah Insyirah,Ahmad Zamani Ridzwan,Hanif Aiman,Nurul Izzati,Shervona
 Date: <28/9/2026>
 File under test: `whitebox_target.py`, function `check_task(priority, hours)`
 
@@ -63,5 +63,5 @@ Where Actual and Expected disagree, that is a candidate defect. File it as
 a GitHub issue using the bug report template, then list it here.
 
 | Issue link | Linked test case | Short title | Severity | Priority |
-|---|---|---|---|---|
+|---| TC-7 | Priority 6 incorrectly accepted as valid | Medium | High |
 | | | | | |
