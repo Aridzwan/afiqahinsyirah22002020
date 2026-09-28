@@ -42,7 +42,8 @@ True or False branch, e.g. `D3-True`.
 | TC-3 | Negative | 3 | 5 | D1F,D2T | Reject: priority must be whole number | Reject: priority must be whole number | No |
 |TC-4|Negative| 0 | 5 | D1F,D2F,D3T | Reject: priority must be between 1 and 5 | Reject: priority must be between 1 and 5 |No|
 | TC-5 | Negative | 3 | 0 | D1F,D2F,D3F,D4T | Reject: estimated hours must be positive |Reject: estimated hours must be positive|No|
-|---|---|---|---|---|---|---|---|
+| TC-6 | Negative | 4 | 21 | D1F,D2F,D3F,D4F,D5T | Reject: high priority cannot exceed 20 hours | Reject: high priority cannot exceed 20 hours | No |
+| TC-7 | Negative | 6 | 5 | D1F,D2F,D3F,D4F,D5F | Reject: Priority must be between 1 and 5 | Valid | Yes |
 
 
 Add rows until every decision point has appeared as both True and False at
