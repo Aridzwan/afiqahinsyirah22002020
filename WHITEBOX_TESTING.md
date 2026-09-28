@@ -11,11 +11,11 @@ with `and` / `or` still counts as one decision point for this lab.
 
 | # | Line (approx.) | Condition | True branch leads to | False branch leads to |
 |---|---|---|---|---|
-| D1 |2 | `priority is None or hours is None` | "Missing required field."|D2 |
-| D2 |4| `not isinstance(priority, int)` | "Priority must be a whole number."|D3 |
-| D3 |6 | `priority < 1 or priority > 6` | "Priority must be between 1 and 5."|D4 |
-| D4 |8 | `hours <= 0` |"Estimated hours must be positive." |D5 |
-| D5 |10 | `priority >= 4 and hours > 20`|"High priority tasks cannot exceed 20 hours." |"Valid." |
+| D1 |23 | `priority is None or hours is None` | "Missing required field."|D2 |
+| D2 |26| `not isinstance(priority, int)` | "Priority must be a whole number."|D3 |
+| D3 |29 | `priority < 1 or priority > 6` | "Priority must be between 1 and 5."|D4 |
+| D4 |32 | `hours <= 0` |"Estimated hours must be positive." |D5 |
+| D5 |35 | `priority >= 4 and hours > 20`|"High priority tasks cannot exceed 20 hours." |"Valid." |
 
 ## 2. Coverage target
 
