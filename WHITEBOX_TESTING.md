@@ -1,6 +1,6 @@
 # White-Box Test Suite: check_task()
 
-Testers (pair): afiqah insyirah
+Testers (pair): afiqah insyirah, shervona, zamani, hanif aiman
 Date: <28/9/2026>
 File under test: `whitebox_target.py`, function `check_task(priority, hours)`
 
